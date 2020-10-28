@@ -1,0 +1,38 @@
+.body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    padding: 100px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main_header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main_content {
+    grid-column: 1 /span 2;
+    display: flex;
+}
+
+.title_letter {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.content {
+    color: hsl(300, 43%, 22%);
+}
+
+.stars {
+    background-color: hsla(333, 80%, 67%, 0.63);
+    color: hsl(300, 43%, 22%);
+}
